@@ -10,7 +10,7 @@ public class Staafdiagram extends Applet {
 
     public void init() {
         valerie = 40;
-        jeroen = 100;
+        jeroen = 20;
         hans = 80;
     }
 

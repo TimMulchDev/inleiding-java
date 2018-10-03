@@ -83,7 +83,7 @@ public class H8_2 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("Aantal mannen aanwezig: = " + man, 50, 80);
+        g.drawString("Aantal mannen aanwezig: = " + pman, 50, 80);
         g.drawString("Aantal vrouwen aanwezeig: = " + vrouw, 50, 100);
         g.drawString("Aantal mannen aanwezeig: = " + pman, 50, 120);
         g.drawString("Aantal vrouwen aanwezeig: = " + pvrouw, 50, 140);
