@@ -17,25 +17,19 @@ public class H8_2 extends Applet {
     Button knop4;
 
     public void init(){
-
         setSize(1600, 900);
-
         knop1 = new Button();
         knop1.setLabel("Man");
         knop1.addActionListener(new manListener());
-
         knop2 = new Button();
         knop2.setLabel("Vrouw");
         knop2.addActionListener(new vrouwListener());
-
         knop3 = new Button();
         knop3.setLabel("Potentiële man");
         knop3.addActionListener(new pmanListener());
-
         knop4 = new Button();
         knop4.setLabel("Potentiële vrouw");
         knop4.addActionListener(new pvrouwListener());
-
         add(knop1);
         add(knop2);
         add(knop3);

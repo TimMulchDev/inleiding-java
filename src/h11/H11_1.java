@@ -10,12 +10,12 @@ public class H11_1 extends Applet {
 
     public void paint(Graphics g) {
         int teller;
-        int y = 0;
+        int x = 0;
 
-        for(teller = 0; teller < 10; teller++) {
-            y += 20;
-            g.drawLine(50 , y, 300, y );
-            g.drawString("" + teller, 305, y );
+        for(teller = 0; teller <= 9; teller++) {
+            x += 20;
+            g.drawLine(x , 20, x, 280);
+            g.drawString("" + teller, x, 15 );
         }
     }
 }
